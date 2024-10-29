@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "django-csp-247"
+version = "0.1.0"
+description = "Demonstration of issue #247 for django-csp"
+authors = ["Alistair Lynn <alistair.lynn@coefficient.ai>"]
+license = "CC0-1.0"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.2"
+django-csp = "^3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
